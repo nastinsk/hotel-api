@@ -9,15 +9,14 @@ Use Django REST Framework to create an API, then “containerize” it.
 * Python 3.7
 * Pipenv
 * Django
+* djangorestframework
 * Docker
 
 
 ## Routes
-* home page- http://127.0.0.1:8000/
-* product detail page- http://127.0.0.1:8000/product/product.pk
-* Make new product page http://127.0.0.1:8000/product/new/
-* Update product detail page- http://127.0.0.1:8000/product/product.pk/update
-* Delete product from database- http://127.0.0.1:8000/product/product.pk/delete
 * admin page -  http://127.0.0.1:8000/admin
+* http://localhost:8000/api/v1/reservations/ - to see the list of all reservations in the db
+* http://localhost:8000/api/v1/reservations/reservation.pk/ - to see the reservation details
+
 login: ana
 password: 0712
